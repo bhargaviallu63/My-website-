@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Web Page</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background:#f2f2f2;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+
+        header{
+            background:#4a90e2;
+            color:white;
+            padding:20px;
+        }
+
+        img{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            margin-top:20px;
+        }
+
+        .box{
+            background:white;
+            width:80%;
+            margin:auto;
+            margin-top:20px;
+            padding:20px;
+            border-radius:10px;
+        }
+
+        h2{
+            color:#4a90e2;
+        }
+
+        button{
+            background:#4a90e2;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#357abd;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Personal Web Page</h1>
+</header>
+
+<img src="https://via.placeholder.com/150" alt="Profile">
+
+<div class="box">
+    <h2>About Me</h2>
+    <p>Hello! My name is Bhargavi. I am learning Web Development.</p>
+</div>
+
+<div class="box">
+    <h2>My Skills</h2>
+    <p>HTML, CSS, JavaScript</p>
+</div>
+
+<div class="box">
+    <h2>Contact</h2>
+    <p>Email: bhargavi@email.com</p>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+</div>
+
+<script>
+function showMessage(){
+    alert("Welcome to my website!");
+}
+</script>
+
+</body>
+</html>
